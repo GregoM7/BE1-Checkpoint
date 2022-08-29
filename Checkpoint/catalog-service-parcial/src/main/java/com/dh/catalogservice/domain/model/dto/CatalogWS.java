@@ -9,4 +9,12 @@ import java.util.List;
 public class CatalogWS {
 	private String genre;
 	private List<MovieWS> movies;
+
+	public CatalogWS() {
+	}
+
+	public CatalogWS(String genre, List<MovieWS> movies) {
+		this.genre = genre;
+		this.movies = movies;
+	}
 }
