@@ -10,7 +10,7 @@ spring:
           predicates:
             - Path=/movies/**
         - id: catalogRoute
-          uri: lb://catalogue-service
+          uri: lb://catalog-service
           predicates:
             - Path=/catalogs/**
 eureka:
